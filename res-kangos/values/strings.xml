@@ -72,4 +72,10 @@
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
+    <!-- Kangies Settings -->
+    <string name="awaken_settings_title">Kangies Lab</string>
+    <string name="awaken_dashboard_summary">All our customisations are in here</string>
+    <string name="visualizer_title">Lockscreen visualizer</string>
+    <string name="weather_title">Weather</string>
+    <string name="traffic_title">Network traffic</string>
 </resources>

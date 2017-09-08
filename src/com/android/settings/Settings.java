@@ -241,4 +241,8 @@ public class Settings extends SettingsActivity {
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
     public static class StartThemesActivity extends SettingsActivity {}
+    /**
+     * Activity for Awaken Settings
+     */
+    public static class AwakenSettingsActivity extends SettingsActivity { /* empty */ }
 }
