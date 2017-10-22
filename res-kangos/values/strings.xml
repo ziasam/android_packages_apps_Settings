@@ -130,5 +130,8 @@
     <!-- KangOS maintainer -->
     <string name="maintainer">KangOS Maintainer</string>
     <string name="kangos_maintainer">Unofficial Maintainer</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
 </resources>
 
