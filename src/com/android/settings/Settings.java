@@ -248,4 +248,5 @@ public class Settings extends SettingsActivity {
 
     public static class VisualizerActivity extends SettingsActivity { /* empty */ }
 
+    public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
 }
