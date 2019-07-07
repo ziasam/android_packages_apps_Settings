@@ -169,7 +169,7 @@ import com.awaken.settings.OmniJawsSettings;
 import com.awaken.settings.Traffic;
 import com.awaken.settings.fragments.FODIconPickerFragment;
 import com.awaken.settings.fragments.HeadsUpSettings;
-
+import com.awaken.settings.SmartPixels;
 
 public class SettingsGateway {
 
@@ -328,6 +328,7 @@ public class SettingsGateway {
             FODIconPickerFragment.class.getName(),
             RunningServices.class.getName(),
             HeadsUpSettings.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -374,5 +375,6 @@ public class SettingsGateway {
             Settings.FODIconPickerFragmentActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.HeadsUpSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }

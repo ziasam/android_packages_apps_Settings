@@ -239,9 +239,9 @@ public class Settings extends SettingsActivity {
     /**
      * Activity for MediaControlsSettings
      */
-    public static class MediaControlsSettingsActivity extends SettingsActivity {}
+    public static class MediaControlsSettingsActivity extends SettingsActivity { /* empty */ }
 
-    public static class StartThemesActivity extends SettingsActivity {}
+    public static class StartThemesActivity extends SettingsActivity { /* empty */ }
     /**
      * Activity for Awaken Settings
      */
@@ -257,4 +257,5 @@ public class Settings extends SettingsActivity {
 
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
 
+    public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
 }
