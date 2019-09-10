@@ -68,3 +68,5 @@
 }
 
 -keep class com.kangos.settings.**
+# Custom rules
+-keep class com.google.android.settings.** { *; }
