@@ -104,6 +104,12 @@
         android:key="configure_notifications_advanced"
         android:order="15">
 
+        <com.dirtyunicorns.support.preferences.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false" />
+
         <SwitchPreference
             android:key="silent_icons"
             android:title="@string/silent_notifications_status_bar"
