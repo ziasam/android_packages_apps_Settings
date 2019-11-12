@@ -19,4 +19,8 @@
     <!-- Themes -->
     <color name="homepage_du_themes_background">#FF5E35B1</color>
 
+    <color name="homepage_aicpextras_background">#ffab00</color>
+
+    <color name="homepage_container_bg">@android:color/transparent</color>
+
 </resources>
