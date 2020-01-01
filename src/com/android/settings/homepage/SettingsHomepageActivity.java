@@ -21,6 +21,7 @@ import android.app.ActivityManager;
 import android.app.settings.SettingsEnums;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Toolbar;
@@ -38,6 +39,13 @@ import com.android.settings.homepage.contextualcards.ContextualCardsFragment;
 import com.android.settings.overlay.FeatureFactory;
 
 public class SettingsHomepageActivity extends FragmentActivity {
+
+    Context context;
+    ImageView avatarView;
+    UserManager mUserManager;
+
+    View homepageSpacer;
+    View homepageMainLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +73,14 @@ public class SettingsHomepageActivity extends FragmentActivity {
         showFragment(new TopLevelSettings(), R.id.main_content);
         ((FrameLayout) findViewById(R.id.main_content))
                 .getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
+
+        homepageSpacer = findViewById(R.id.settings_homepage_spacer);
+        homepageMainLayout = findViewById(R.id.main_content_scrollable_container);
+
+        if (!isHomepageSpacerEnabled() && homepageSpacer != null && homepageMainLayout != null) {
+            homepageSpacer.setVisibility(View.GONE);
+            setMargins(homepageMainLayout, 0,0,0,0);
+        }
     }
 
     private void showFragment(Fragment fragment, int id) {
@@ -78,6 +94,39 @@ public class SettingsHomepageActivity extends FragmentActivity {
             fragmentTransaction.show(showFragment);
         }
         fragmentTransaction.commit();
+    }
+
+    private Drawable getCircularUserIcon(Context context) {
+        Bitmap bitmapUserIcon = mUserManager.getUserIcon(UserHandle.myUserId());
+
+        if (bitmapUserIcon == null) {
+            // get default user icon.
+            final Drawable defaultUserIcon = UserIcons.getDefaultUserIcon(
+                    context.getResources(), UserHandle.myUserId(), false);
+            bitmapUserIcon = UserIcons.convertToBitmap(defaultUserIcon);
+        }
+        Drawable drawableUserIcon = new CircleFramedDrawable(bitmapUserIcon,
+                (int) context.getResources().getDimension(R.dimen.circle_avatar_size));
+
+        return drawableUserIcon;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        avatarView.setImageDrawable(getCircularUserIcon(getApplicationContext()));
+    }
+
+    private boolean isHomepageSpacerEnabled() {
+        return true;
+    }
+
+    private static void setMargins (View v, int l, int t, int r, int b) {
+        if (v.getLayoutParams() instanceof ViewGroup.MarginLayoutParams) {
+            ViewGroup.MarginLayoutParams p = (ViewGroup.MarginLayoutParams) v.getLayoutParams();
+            p.setMargins(l, t, r, b);
+            v.requestLayout();
+        }
     }
 
     @VisibleForTesting
