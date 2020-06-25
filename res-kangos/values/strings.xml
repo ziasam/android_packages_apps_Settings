@@ -129,4 +129,6 @@
 
     <!-- KangOS maintainer -->
     <string name="maintainer">KangOS Maintainer</string>
+    <string name="kangos_maintainer">Unofficial Maintainer</string>
 </resources>
+
