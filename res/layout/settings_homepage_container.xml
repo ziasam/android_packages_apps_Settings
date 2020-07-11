@@ -57,8 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:touchscreenBlocksFocus="false"
-        android:keyboardNavigationCluster="false"
-        android:layout_height="wrap_content">
+        android:keyboardNavigationCluster="false">
         <include layout="@layout/homepage_spacer"/>
     </com.google.android.material.appbar.AppBarLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
