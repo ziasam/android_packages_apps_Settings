@@ -437,4 +437,6 @@
     <dimen name="homepage_spacer_height_base">288dp</dimen>
     <dimen name="homepage_spacer_title_marginTop">8dp</dimen>
 
+    <dimen name="preference_divider">8dp</dimen>
+
 </resources>
