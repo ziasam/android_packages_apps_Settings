@@ -432,4 +432,9 @@
 
     <!-- Text padding for EmptyTextSettings -->
     <dimen name="empty_text_padding">24dp</dimen>
+
+    <dimen name="homepage_spacer_height">274dp</dimen>
+    <dimen name="homepage_spacer_height_base">274dp</dimen>
+    <dimen name="homepage_spacer_title_marginTop">8dp</dimen>
+
 </resources>

@@ -27,6 +27,8 @@
         android:id="@+id/main_content_scrollable_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="194dp"
+
         app:layout_behavior="com.android.settings.widget.FloatingAppBarScrollingViewBehavior">
 
         <LinearLayout
@@ -57,6 +59,7 @@
         android:layout_height="wrap_content"
         android:touchscreenBlocksFocus="false"
         android:keyboardNavigationCluster="false">
-        <include layout="@layout/search_bar"/>
+        android:layout_height="wrap_content">
+        <include layout="@layout/homepage_spacer"/>
     </com.google.android.material.appbar.AppBarLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
