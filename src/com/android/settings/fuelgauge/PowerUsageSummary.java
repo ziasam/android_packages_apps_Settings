@@ -370,7 +370,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mScreenUsagePref.setSummary(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
         mBatteryTemp.setSummary(
-                com.android.internal.util.du.Utils.batteryTemperature(getContext(), false));
+                com.android.internal.util.du.Utils.mccCheck(getContext()) ?
+                com.android.internal.util.du.Utils.batteryTemperature(getContext(), true) + "°F" :
+                com.android.internal.util.du.Utils.batteryTemperature(getContext(), false) + "°C");
 
         final long elapsedRealtimeUs = SystemClock.elapsedRealtime() * 1000;
         Intent batteryBroadcast = context.registerReceiver(null,
