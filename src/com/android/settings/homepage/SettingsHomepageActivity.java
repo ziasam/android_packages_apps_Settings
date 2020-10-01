@@ -21,6 +21,7 @@ import android.app.ActivityManager;
 import android.app.settings.SettingsEnums;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.provider.Settings;
 import android.widget.ImageView;
@@ -40,6 +41,9 @@ import com.android.settings.overlay.FeatureFactory;
 
 public class SettingsHomepageActivity extends FragmentActivity {
 
+    View homepageSpacer;
+    View homepageMainLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,17 +59,24 @@ public class SettingsHomepageActivity extends FragmentActivity {
         FeatureFactory.getFactory(this).getSearchFeatureProvider()
                 .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
 
-        final ImageView avatarView = findViewById(R.id.account_avatar);
-        getLifecycle().addObserver(new AvatarViewMixin(this, avatarView));
+//        final ImageView avatarView = findViewById(R.id.account_avatar);
+//        getLifecycle().addObserver(new AvatarViewMixin(this, avatarView));
         getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
 
-        if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
+//        if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
             // Only allow contextual feature on high ram devices.
-            showFragment(new ContextualCardsFragment(), R.id.contextual_cards_content);
-        }
+//            showFragment(new ContextualCardsFragment(), R.id.contextual_cards_content);
+//        }
         showFragment(new TopLevelSettings(), R.id.main_content);
         ((FrameLayout) findViewById(R.id.main_content))
                 .getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
+        homepageSpacer = findViewById(R.id.settings_homepage_spacer);
+        homepageMainLayout = findViewById(R.id.main_content_scrollable_container);
+
+        if (!isHomepageSpacerEnabled() && homepageSpacer != null && homepageMainLayout != null) {
+            homepageSpacer.setVisibility(View.GONE);
+            setMargins(homepageMainLayout, 0,0,0,0);
+        }
     }
 
     private void showFragment(Fragment fragment, int id) {
@@ -79,6 +90,19 @@ public class SettingsHomepageActivity extends FragmentActivity {
             fragmentTransaction.show(showFragment);
         }
         fragmentTransaction.commit();
+    }
+
+    private boolean isHomepageSpacerEnabled() {
+        return Settings.System.getInt(this.getContentResolver(),
+        Settings.System.SETTINGS_SPACER, 1) != 0;
+    }
+
+    private static void setMargins (View v, int l, int t, int r, int b) {
+        if (v.getLayoutParams() instanceof ViewGroup.MarginLayoutParams) {
+            ViewGroup.MarginLayoutParams p = (ViewGroup.MarginLayoutParams) v.getLayoutParams();
+            p.setMargins(l, t, r, b);
+            v.requestLayout();
+        }
     }
 
     @VisibleForTesting
