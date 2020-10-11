@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-/*
+**
 ** Copyright 2014, The Android Open Source Project
 **
-** Licensed under the Apache License, Version 2.0 (the "License");
+** Licensed under the Apache License, Version 2.0 (the "License")
 ** you may not use this file except in compliance with the License.
 ** You may obtain a copy of the License at
 **
@@ -16,12 +16,19 @@
 ** limitations under the License.
 */
 -->
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_height="match_parent"
-              android:layout_width="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:selectable="false">
 
-    <include layout="@layout/master_setting_switch_bar" />
-
+    <ImageView
+        android:layout_width="1250dp"
+        android:layout_height="200dp" 
+        android:src="@drawable/kangoslogo"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:layout_marginTop="2dp"
+	android:layout_marginBottom="2dp" />
 </LinearLayout>
+

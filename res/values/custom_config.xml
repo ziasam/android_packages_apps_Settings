@@ -22,7 +22,7 @@
          2 = left side
          3 = right side
     -->
-    <integer name="config_fingerprintSensorLocation">0</integer>
+    <integer name="config_fingerprintSensorLocation">1</integer>
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
