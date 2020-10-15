@@ -162,6 +162,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.awaken.settings.AwakenSettings;
+import com.awaken.settings.Visualizer;
 
 public class SettingsGateway {
 
@@ -312,7 +313,8 @@ public class SettingsGateway {
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
             StartThemes.class.getName(),
-            AwakenSettings.class.getName()
+            AwakenSettings.class.getName(),
+            Visualizer.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -353,5 +355,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.AwakenSettingsActivity.class.getName(),
+            Settings.VisualizerActivity.class.getName(),
     };
 }

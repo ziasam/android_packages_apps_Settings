@@ -245,4 +245,7 @@ public class Settings extends SettingsActivity {
      * Activity for Awaken Settings
      */
     public static class AwakenSettingsActivity extends SettingsActivity { /* empty */ }
+
+    public static class VisualizerActivity extends SettingsActivity { /* empty */ }
+
 }

@@ -59,8 +59,8 @@
     <!-- Media art -->
     <string name="lockscreen_media_art_title">Media art</string>
     <string name="lockscreen_media_art_summary">Toggle visibility of media art</string>
-
-	<!-- Pocket mode -->
+  
+    <!-- Pocket mode -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 
@@ -104,5 +104,7 @@
     <string name="display_rotation_90_title">90 degrees</string>
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
+
+    <string name="visualizer_title">Lockscreen visualizer</string>
 
 </resources>
