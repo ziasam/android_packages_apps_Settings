@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright (C) 2019 RevengeOS
+ * Copyright (C) 2019 KangOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,12 +20,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/double_tap_title">
 
-    <com.revengeos.settings.preference.SystemSettingSwitchPreference
+    <com.kangos.settings.preference.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_sleep_gesture"
         android:defaultValue="1"/>
 
-    <com.revengeos.settings.preference.SystemSettingSwitchPreference
+    <com.kangos.settings.preference.SystemSettingSwitchPreference
         android:key="double_tap_sleep_lockscreen"
         android:title="@string/double_tap_sleep_lockscreen"
         android:defaultValue="1"/>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.revengeos.settings.preference;
+package com.kangos.settings.preference;
 
 import android.content.Context;
 import androidx.preference.SwitchPreference;

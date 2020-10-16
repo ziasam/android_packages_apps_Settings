@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.revengeos.settings.preference;
+package com.kangos.settings.preference;
 
 import android.app.Activity;
 import android.content.Context;

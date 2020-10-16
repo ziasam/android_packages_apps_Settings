@@ -64,7 +64,7 @@ android_library {
     ],
 
     resource_dirs: [
-        "res-revengeos",
+        "res-kangos",
         "res",
     ],
 }

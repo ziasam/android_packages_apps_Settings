@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2018 The LineageOS Project
- * Copyright (C) 2019 RevengeOS
+ * Copyright (C) 2019 KangOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.revengeos.settings.preference.deviceinfo;
+package com.kangos.settings.preference.deviceinfo;
 
 import android.content.Context;
 import android.os.SystemProperties;
@@ -23,11 +23,11 @@ import android.os.SystemProperties;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.R;
 
-public class RevengeOSVersionPreferenceController extends BasePreferenceController {
+public class KangOSBuildIdPreferenceController extends BasePreferenceController {
 
-    private final String KEY_REVENGEOS_VERSION_PROP = "ro.revengeos.version";
+    private final String KEY_KANGOS_BUILD_ID_PROP = "ro.kangos.build_id";
  
-    public RevengeOSVersionPreferenceController(Context context,
+    public KangOSBuildIdPreferenceController(Context context,
             String preferenceKey) {
         super(context, preferenceKey);
     }
@@ -39,7 +39,7 @@ public class RevengeOSVersionPreferenceController extends BasePreferenceControll
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_REVENGEOS_VERSION_PROP,
+        return SystemProperties.get(KEY_KANGOS_BUILD_ID_PROP,
                 mContext.getString(R.string.unknown));
     }
 }

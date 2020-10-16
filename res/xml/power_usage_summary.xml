@@ -46,7 +46,7 @@
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController" />
 
     <Preference
-        android:fragment="com.revengeos.settings.fragment.BatteryHealthSettings"
+        android:fragment="com.kangos.settings.fragment.BatteryHealthSettings"
         android:key="battery_health_key"
         android:title="@string/battery_health_title"
         android:summary="@string/battery_health_summary" />

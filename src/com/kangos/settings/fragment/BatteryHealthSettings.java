@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 RevengeOS
+ * Copyright (C) 2020 KangOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.revengeos.settings.fragment;
+package com.kangos.settings.fragment;
 
 import android.annotation.Nullable;
 import android.content.Context;
@@ -72,7 +72,7 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.REVENGEOS;
+        return MetricsProto.MetricsEvent.KANGOS;
     }
 
     @Override

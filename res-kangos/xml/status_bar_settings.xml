@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright (C) 2019 RevengeOS
+ * Copyright (C) 2019 KangOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,12 +16,16 @@
  * limitations under the License.
  */
 -->
-<resources>
-    <!-- Base attributes available to CustomSeekBarPreference. -->
-    <declare-styleable name="CustomSeekBarPreference">
-        <attr name="interval" format="integer" />
-        <attr name="min" format="integer" />
-        <attr name="units" format="string|reference" />
-        <attr name="defaultText" format="string|reference" />
-    </declare-styleable>
-</resources>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/status_bar_title">
+
+    <Preference
+        android:title="@string/icon_tuner_title"
+        android:summary="@string/icon_tuner_summary">
+	    <intent android:action="android.intent.action.MAIN"
+	        android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+    </Preference>
+
+</PreferenceScreen>

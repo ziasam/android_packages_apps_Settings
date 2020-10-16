@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright (C) 2019 RevengeOS
+ * Copyright (C) 2019 KangOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,13 +25,13 @@
         android:key="volume_keys"
         android:title="@string/volume_keys_category" >
 
-        <com.revengeos.settings.preference.SystemSettingSwitchPreference
+        <com.kangos.settings.preference.SystemSettingSwitchPreference
             android:key="volume_button_music_control"
             android:summary="@string/volume_rocker_music_controls_summary"
             android:title="@string/volume_rocker_music_controls_title"
             android:defaultValue="true" />
 
-        <com.revengeos.settings.preference.SystemSettingSwitchPreference
+        <com.kangos.settings.preference.SystemSettingSwitchPreference
             android:key="volume_rocker_wake"
             android:summary="@string/volume_rocker_wake_summary"
             android:title="@string/volume_rocker_wake_title"

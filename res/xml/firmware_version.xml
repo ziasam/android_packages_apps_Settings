@@ -63,13 +63,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
-    <!-- RevengeOS -->
+    <!-- KangOS -->
     <Preference
-        android:key="revengeos_version"
-        android:title="@string/revengeos_version"
+        android:key="kangos_version"
+        android:title="@string/kangos_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.revengeos.settings.preference.deviceinfo.RevengeOSVersionPreferenceController"/>
+        settings:controller="com.kangos.settings.preference.deviceinfo.KangOSVersionPreferenceController"/>
 
     <!-- Build -->
     <Preference
