@@ -73,7 +73,7 @@
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
     <!-- Kangies Settings -->
-    <string name="awaken_settings_title">Kangies Lab</string>
+    <string name="awaken_settings_title">Kangie\'s Lab</string>
     <string name="awaken_dashboard_summary">All our customisations are in here</string>
     <string name="visualizer_title">Lockscreen visualizer</string>
     <string name="weather_title">Weather</string>
@@ -104,8 +104,6 @@
     <string name="display_rotation_90_title">90 degrees</string>
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
-
-    <string name="visualizer_title">Lockscreen visualizer</string>
 
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Ringtone vibration pattern</string>
