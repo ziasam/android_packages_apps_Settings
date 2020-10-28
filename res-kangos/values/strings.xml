@@ -180,5 +180,12 @@
     <string name="allow_signature_fake">Allow signature spoofing</string>
     <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app.</string>
 
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Settings dashboard icons</string>
+    <string name="theming_settings_dashboard_icons_default2">Default background</string>
+    <string name="theming_settings_dashboard_icons_default_accent2">Accent background</string>
+    <string name="theming_settings_dashboard_icons_plain">Plain</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Plain accent</string>
+
 </resources>
 
