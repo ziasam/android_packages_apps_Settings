@@ -45,50 +45,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
-public class StatusBarSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+public class StatusBarSettings extends SettingsPreferenceFragment {
 
-    private static final String NETWORK_TRAFFIC = "network_traffic_state";
-
-   private SystemSettingMasterSwitchPreference mNetworkTraffic;
 
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
         addPreferencesFromResource(R.xml.status_bar_settings);
 
-        PreferenceScreen prefSet = getPreferenceScreen();
-
-    }
-
-    private void updateMasterPrefs() {
-        mNetworkTraffic = (SystemSettingMasterSwitchPreference) findPreference(NETWORK_TRAFFIC);
-        mNetworkTraffic.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.NETWORK_TRAFFIC_STATE, 0) == 1));
-        mNetworkTraffic.setOnPreferenceChangeListener(this);
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-		if (preference == mNetworkTraffic) {
-            boolean value = (Boolean) objValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.NETWORK_TRAFFIC_STATE, value ? 1 : 0);
-            return true;
-		}
-        return false;
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        updateMasterPrefs();
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        updateMasterPrefs();
     }
 
     @Override
