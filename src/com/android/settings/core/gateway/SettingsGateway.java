@@ -165,6 +165,7 @@ import com.awaken.settings.AwakenSettings;
 import com.awaken.settings.Visualizer;
 import com.awaken.settings.OmniJawsSettings;
 import com.awaken.settings.Traffic;
+import com.awaken.settings.fragments.FODIconPickerFragment;
 
 public class SettingsGateway {
 
@@ -318,7 +319,8 @@ public class SettingsGateway {
             AwakenSettings.class.getName(),
             Visualizer.class.getName(),
             OmniJawsSettings.class.getName(),
-            Traffic.class.getName()
+            Traffic.class.getName(),
+            FODIconPickerFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -362,5 +364,6 @@ public class SettingsGateway {
             Settings.VisualizerActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName(),
             Settings.TrafficActivity.class.getName(),
+            Settings.FODIconPickerFragmentActivity.class.getName(),
     };
 }

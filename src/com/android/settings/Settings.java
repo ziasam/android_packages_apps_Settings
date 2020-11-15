@@ -252,4 +252,6 @@ public class Settings extends SettingsActivity {
 
     public static class TrafficActivity extends SettingsActivity { /* empty */ }
 
+    public static class FODIconPickerFragmentActivity extends SettingsActivity { /* empty */ }
+
 }
