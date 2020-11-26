@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright (C) 2019 KangOS
+ * Copyright (C) 2020 KangOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,12 +23,6 @@
     <!-- Device info strings -->
     <string name="kangos_version">KangOS version</string>
 
-    <!-- Gestures -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="double_tap_summary">Power display on and off with tap gestures</string>
-    <string name="double_tap_sleep_gesture">Double tap to sleep on status bar</string>
-    <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
-
     <!-- Battery health -->
     <string name="battery_health_title">Battery health</string>
     <string name="battery_health_summary">Monitor the battery health of your device</string>
@@ -36,28 +30,6 @@
     <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-
-    <!-- Button settings -->
-    <string name="buttons_settings_title">Buttons</string>
-
-    <!-- Volume category -->
-    <string name="volume_keys_category">Volume Keys</string>
-
-    <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
-
-    <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
-
-    <!-- Media art -->
-    <string name="lockscreen_media_art_title">Media art</string>
-    <string name="lockscreen_media_art_summary">Toggle visibility of media art</string>
-
-    <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display charging current, voltage and temperature</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
