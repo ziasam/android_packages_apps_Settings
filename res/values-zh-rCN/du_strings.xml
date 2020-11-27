@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Themes -->
+    <string name="du_themes_title">主题</string>
+    <string name="du_themes_summary">生活就像一盒蜡笔...</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">重置统计信息</string>
+    <string name="battery_stats_message">电池历史记录将被重置</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">浅色</string>
+    <string name="custom_light_on_time_title">通知光效开启的时间（毫秒）</string>
+    <string name="custom_light_off_time_title">通知光效关闭的时间（毫秒）</string>
+    <string name="value_equals_default">默认</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">拼凑布局</string>
+    <string name="unlock_scramble_pin_layout_summary">解锁设备时拼凑PIN布局</string>
+
+    <!-- Search keywords for notification history -->
+    <string name="keywords_notification_log">通知，通知日志</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">点按即可显示信息</string>
+
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">熄屏显示指纹</string>
+    <string name="fod_gesture_summary">无需先唤醒屏幕即可解锁设备</string>
+</resources>
