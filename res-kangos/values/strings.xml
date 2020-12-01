@@ -208,5 +208,7 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
 
+    <string name="headsupsettings_title">Heads Up Settings</string>
+
 </resources>
 

@@ -255,4 +255,6 @@ public class Settings extends SettingsActivity {
 
     public static class FODIconPickerFragmentActivity extends SettingsActivity { /* empty */ }
 
+    public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
+
 }
