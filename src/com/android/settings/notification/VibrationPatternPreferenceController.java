@@ -201,10 +201,10 @@ public class VibrationPatternPreferenceController extends AbstractPreferenceCont
     }
 
     private void updateCustomVibVisibility(boolean show) {
-        mCustomVibCategory.setVisible(show);
-        mCustomVib1.setVisible(show);
-        mCustomVib2.setVisible(show);
-        mCustomVib3.setVisible(show);
+        mCustomVibCategory.setVisible(false);
+        mCustomVib1.setVisible(false);
+        mCustomVib2.setVisible(false);
+        mCustomVib3.setVisible(false);
         if (show) updateCustomVibPreferences();
     }
 
