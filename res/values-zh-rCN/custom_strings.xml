@@ -37,27 +37,6 @@
     <string name="security_settings_face_require_swipe">向上滑动即可解锁</string>
     <string name="security_settings_face_require_swipe_summary">在锁定屏幕上向上滑动以使用面部解锁</string>
 
-    <!-- FOD animations -->
-    <string name="fod_recog_animation">指纹识别动画</string>
-    <string name="fod_recog_animation_summary">在识别指纹时显示动画</string>
-    <string name="fod_recog_animation_effect_title">识别动画效果</string>
-    <string name="fod_recog_animation_miui_normal">MIUI 默认</string> 
-    <string name="fod_recog_animation_miui_aod">熄屏显示始终打开</string>
-    <string name="fod_recog_animation_miui_light">亮</string>
-    <string name="fod_recog_animation_miui_pop">抛出</string>
-    <string name="fod_recog_animation_miui_pulse">脉冲</string>
-    <string name="fod_recog_animation_miui_pulse_white">脉冲（白）</string> 
-    <string name="fod_recog_animation_miui_rhythm">旋律</string>
-    <string name="fod_recog_animation_op_cosmos">宇宙</string>
-    <string name="fod_recog_animation_op_mclaren">迈凯轮</string>
-    <string name="fod_recog_animation_op_stripe">条纹</string>
-    <string name="fod_recog_animation_op_wave">波浪</string>
-    <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">未来</string>
-    <string name="fod_recog_animation_pureview_halo_ring">光环</string> 
-    <string name="fod_recog_animation_pureview_molecular">分子</string>
-    <string name="fod_recog_animation_op_cyberpunk">赛博朋克</string>
-
     <string name="weather_title">天气</string>
     <string name="traffic_title">网络流量</string>
 
