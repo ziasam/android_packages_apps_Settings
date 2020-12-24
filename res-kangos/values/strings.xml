@@ -148,10 +148,6 @@
     <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
     <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
 
-    <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
