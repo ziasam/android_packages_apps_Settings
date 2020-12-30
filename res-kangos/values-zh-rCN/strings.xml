@@ -99,10 +99,6 @@
     <string name="adaptive_playback_timeout_10_min_summary">开启（10分钟）</string>
     <string name="adaptive_playback_explainer">音量静音时，自适应播放会自动暂停媒体；如果在设定时间内恢复音量，则自适应播放会自动恢复播放。</string>
 
-    <!-- KangOS maintainer -->
-    <string name="maintainer">KangOS维护者</string>
-    <string name="kangos_maintainer">非官方维护者</string>
-
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">屏幕截图的声音</string>
 

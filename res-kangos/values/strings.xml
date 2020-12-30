@@ -20,9 +20,15 @@
 
     <string name="default_text">Default</string>
 
-    <!-- Device info strings -->
-    <string name="kangos_version">KangOS version</string>
-    <string name="about_device_name">Device Codename</string>  
+    <!-- KangOS version page strings -->
+    <string name="kangos_version_branding">KangOS</string>
+    <string name="kangos_version_device">Device</string>
+    <string name="kangos_version_cpu">CPU</string>
+    <string name="kangos_version_resolution">Resolution</string>
+    <string name="kangos_version_battery">Battery</string>
+    <string name="kangos_version_ram">RAM</string>
+    <string name="kangos_version_maintainer">Maintainer</string>
+
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
@@ -96,10 +102,6 @@
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <string name="adaptive_playback_explainer">Adaptive playback automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
-
-    <!-- KangOS maintainer -->
-    <string name="maintainer">KangOS Maintainer</string>
-    <string name="kangos_maintainer">Unofficial Maintainer</string>
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>

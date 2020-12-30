@@ -21,10 +21,14 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-<PreferenceScreen
-    android:layout="@layout/logo_layout"
-    android:key="kangoslogo"
-    android:selectable="false"/>
+    <!-- KangOS Version -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout_height="match_parent"
+        android:key="kangos_version"
+        android:layout="@layout/kangos_version"
+        android:order="-500"
+        android:selectable="false"
+        settings:controller="com.kangos.settings.preference.deviceinfo.KangOSVersionPreferenceController" />
 
     <!-- Android version -->
     <Preference
@@ -35,14 +39,6 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 		
-    <!-- KangOS maintainer -->
-    <Preference
-        android:key="maintainer"
-        android:title="@string/maintainer"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.KangOSMaintainerPreferenceController"/>
-
     <!-- Security patch -->
     <Preference
         android:key="security_key"
@@ -75,14 +71,6 @@
         android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
-
-    <!-- KangOS -->
-    <Preference
-        android:key="kangos_version"
-        android:title="@string/kangos_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.kangos.settings.preference.deviceinfo.KangOSVersionPreferenceController"/>
 
     <!-- SELinux -->
     <Preference
