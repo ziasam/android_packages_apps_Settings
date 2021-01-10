@@ -22,7 +22,7 @@
 
     <!-- Device info strings -->
     <string name="kangos_version">KangOS version</string>
-    <string name+"about_device_name">Device Codename</string>  
+    <string name="about_device_name">Device Codename</string>  
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
