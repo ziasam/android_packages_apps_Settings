@@ -129,7 +129,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         final LayoutPreference headerPreference =
                 getPreferenceScreen().findPreference(KEY_MY_DEVICE_INFO_HEADER);
         final View headerView = headerPreference.findViewById(R.id.entity_header);
-        headerPreferance.setVisible(true);
+        headerPreference.setVisible(true);
         final Activity context = getActivity();
         final Bundle bundle = getArguments();
         final EntityHeaderController controller = EntityHeaderController
