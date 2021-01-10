@@ -22,7 +22,7 @@
 
     <!-- Device info strings -->
     <string name="kangos_version">KangOS version</string>
-  
+    <string name+"about_device_name">Device Codename</string>  
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
@@ -266,5 +266,10 @@
     <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
 
     <string name="rounded_corners_title">Rounded Corner</string>
+    <!-- About phone cards -->
+    <string name="storage_card_title">Storage</string>
+    <string name="storage_card_info">Occupied</string>
+    <string name="about_device_rom_title">Kang OS</string>
+
 </resources>
 
