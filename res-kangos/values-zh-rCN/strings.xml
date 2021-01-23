@@ -124,5 +124,115 @@
     <string name="pulse_on_new_tracks_title">环境显示音乐</string>
     <string name="pulse_on_new_tracks_summary">播放新的音乐曲目时显示环境显示</string>
 
-</resources>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的PIN或密码后自动解锁</string>
 
+   <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">找到手机正面的指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">找到手机左侧的指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">找到手机右侧的指纹传感器。</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">找到设备正面的指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">找到设备左侧的指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">找到设备右侧的指纹传感器。</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">找到平板电脑正面的指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">找到平板电脑左侧的指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">找到平板电脑右侧的指纹传感器。</string>
+
+    <string name="connected_tws_device_saved_title">收起耳塞</string>
+    <string name="security_settings_face_require_swipe">向上滑动即可解锁</string>
+    <string name="security_settings_face_require_swipe_summary">在锁定屏幕上向上滑动以使用面部解锁</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="battery_temp_title">电池温度</string>
+    <string name="theming_settings_dashboard_icons_title">设置面板图标</string>
+    <string name="theming_settings_dashboard_icons_default2">默认背景</string>
+    <string name="theming_settings_dashboard_icons_default_accent2">强调背景</string>
+    <string name="theming_settings_dashboard_icons_plain">朴素</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">朴素的强调</string>
+    <string name="theming_settings_dashboard_icons_default_oneplus">一加</string>
+    <string name="back_height_low_label">完整</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">选项</string>
+    <string name="back_height_message">屏幕侧面的高度用作后手势的可触摸区域。</string>
+    <string name="background_processes_settings_title">后台处理</string>
+    <string name="app_notification_sound_timeout_title">最小通知声音间隔时间</string>
+    <string name="app_notification_sound_timeout_summary_template">允许声音或振动每次不超过一次 <xliff:g id="duration">%1$s</xliff:g></string>	
+    <string name="app_notification_sound_timeout_value_none">无限制</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1分钟</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5分钟</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10分钟</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30分钟</string>
+    <string name="headsupsettings_title">弹出通知设定</string>
+    <string name="battery_light_settings_pref_title">电池充电灯</string>
+    <string name="battery_light_allow_on_dnd_title">请勿打扰模式下的电池指示灯</string>
+    <string name="battery_light_low_blinking_title">电池电量不足时指示灯闪烁</string>
+    <string name="battery_light_cat">充电时电池指示灯颜色</string>
+    <string name="battery_light_low_color">低电量</string>
+    <string name="battery_light_medium_color">中电池</string>
+    <string name="battery_light_full_color">电池快满了</string>
+    <string name="battery_light_reallyfull_color">充满了（100）</string>
+    <string name="less_boring_heads_up_title">令人厌烦的弹出通知</string>
+    <string name="less_boring_heads_up_summary">快速禁用所有应用程序的弹出通知，但保留其用于拨号程序和短信消息的应用程序的通知</string>
+    <string name="back_gesture_arrow_message">返回手势动画</string>
+    <string name="back_gesture_arrow_summary">显示返回手势的动画箭头。</string>
+    <string name="unknown_night_light_time">未知 - 按下即可更新</string>
+    <string name="night_display_location_text">\n\n从日落到日出的计划需要启用位置服务来获取正确的位置时间。</string>
+    <string name="smart_charging_title">智能充电</string>
+    <string name="smart_charging_summary">设置最大充电</string>
+    <string name="smart_charging_switch_title">使用智能充电</string>
+    <string name="smart_charging_level_title">停止触屏级别</string>
+    <string name="smart_charging_resume_level_title">开始触屏级别</string>
+    <string name="data_usage_app_restrict_all">允许网络访问</string>
+    <string name="data_usage_app_restrict_all_summary">启用网络使用</string>
+    <string name="data_usage_app_restrict_mobile">移动数据</string>
+    <string name="data_usage_app_restrict_mobile_summary">启用移动数据的使用</string>
+    <string name="data_usage_app_restrict_vpn">VPN数据</string>
+    <string name="data_usage_app_restrict_vpn_summary">启用VPN数据使用</string>
+    <string name="data_usage_app_restrict_wifi">WiFi数据</string>
+    <string name="data_usage_app_restrict_wifi_summary">启用WiFi数据的使用</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">向左或向右滑动指纹传感器可关闭通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">要关闭通知，请向左或向右滑动手机背面的指纹传感器。</string>
+    <string name="action_nothing">没有活动</string>
+    <string name="action_search">助理</string>
+    <string name="action_voice_search">声音搜索</string>
+    <string name="action_launch_camera">相机</string>
+    <string name="action_flashlight">手电筒</string>
+    <string name="action_volume_panel">音量面板</string>
+    <string name="action_screen_off">屏幕关闭</string>
+    <string name="action_screenshot">屏幕截图</string>
+    <string name="action_app_action">应用程序</string>
+    <string name="active_edge_ss_app_select_title">选择短按应用</string>
+    <string name="active_edge_ls_app_select_title">选择长按应用</string>
+    <string name="active_edge_app_select_summary">选择要通过挤压操作启动的应用</string>
+    <string name="action_qs_panel">QS面板</string>
+    <string name="action_notifications">通知事项</string>
+    <string name="action_clear_notifications">清除通知</string>
+    <string name="action_ringer_modes">铃声模式</string>
+    <string name="kill_app">杀死前台应用</string>
+    <string name="skip_song">跳过歌曲</string>
+    <string name="prev_song">上一首歌</string>
+    <string name="show_powermenu">显示电源菜单</string>
+    <string name="partial_screenshot">部分截图</string>
+    <string name="hush_mute">静音通知</string>
+    <string name="navbar_gesture_tweaks_pref_title">高级手势</string>
+    <string name="navbar_gesture_tweaks_pref_summary">自定义手势并设置自定义动作</string>
+    <string name="navbar_gesture_tweaks_cat_title">高级</string>
+    <string name="long_back_swipe_timeout_title">长按动作超时</string>
+    <string name="left_swipe_actions_title">长左滑动动作</string>
+    <string name="left_swipe_app_action_title">选择长左滑动应用</string>
+    <string name="right_swipe_actions_title">长时间向右滑动</string>
+    <string name="right_swipe_app_action_title">选择长条向右滑动应用程序</string>
+    <string name="left_vertical_swipe_actions_title">垂直向左滑动动作</string>
+    <string name="left_vertical_swipe_app_action_title">选择垂直向左滑动应用程序</string>
+    <string name="right_vertical_swipe_actions_title">垂直向右滑动动作</string>
+    <string name="right_vertical_swipe_app_action_title">选择垂直向右滑动应用程序</string>
+    <string name="gesture_nav_tweaks_footer_info">要为动作选择一个特定的应用程序活动，长按应用程序选择器中的任意应用程序。如果启动器正在显示，在屏幕的最底部区域滑动来触发动作。</string>
+    <string name="back_swipe_extended_title">扩展滑动动作</string>
+    <string name="back_swipe_extended_summary">在较宽的滑动（超过显示尺寸的一半）或 L形滑动（垂直足够长）上触发动作</string>
+</resources>
