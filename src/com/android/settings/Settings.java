@@ -258,6 +258,7 @@ public class Settings extends SettingsActivity {
     public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
 
     // Gaming mode
-    public static class GamingModeActivity extends SettingsActivity {}
+    public static class GamingModeActivity extends SettingsActivity { /* empty */ }
 
+    public static class RoundedCornersActivity extends SettingsActivity { /* empty */ }
 }

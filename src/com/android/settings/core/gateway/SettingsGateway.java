@@ -170,6 +170,7 @@ import com.awaken.settings.FODIconPickerFragment;
 import com.awaken.settings.fragments.HeadsUpSettings;
 import com.awaken.settings.SmartPixels;
 import com.awaken.settings.GamingMode;
+import com.awaken.settings.RoundedCorners;
 
 public class SettingsGateway {
 
@@ -328,7 +329,8 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             HeadsUpSettings.class.getName(),
             SmartPixels.class.getName(),
-            GamingMode.class.getName()
+            GamingMode.class.getName(),
+            RoundedCorners.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -376,5 +378,6 @@ public class SettingsGateway {
             Settings.HeadsUpSettingsActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
+            Settings.RoundedCornersActivity.class.getName(),
     };
 }
