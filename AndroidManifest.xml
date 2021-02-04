@@ -3497,7 +3497,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.awaken.settings.Traffic" />
+                android:value="com.awaken.settings.NetworkTrafficSettings" />
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
@@ -3524,7 +3524,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.awaken.settings.fragments.FODIconPickerFragment" />
+                android:value="com.awaken.settings.FODIconPickerFragment" />
         </activity>
 
         <activity android:name="Settings$HeadsUpSettingsActivity"
