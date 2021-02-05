@@ -3574,6 +3574,6 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.awaken.settings.RoundedCorners" />
-
+    </activity>
     </application>
 </manifest>
