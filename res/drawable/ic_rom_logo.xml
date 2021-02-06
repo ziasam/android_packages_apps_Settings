@@ -12,16 +12,16 @@ Copyright (C) The 2020 FalconOS
     limitations under the License.
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
-    android:viewportWidth="20"
-    android:viewportHeight="20"
-    android:width="20dp"
-    android:height="20dp">
+    android:viewportWidth="520"
+    android:viewportHeight="520"
+    android:width="520dp"
+    android:height="520dp">
     <path
         android:pathData="M256 0c-41.353 0 -75 33.647 -75 75v271c0 41.353 33.647 75 75 75c41.353 0 75 -33.647 75 -75V75C331 33.647 297.353 0 256 0zM271 90h-30V60h30V90z"
         android:fillColor="#000000" />
     <path
         android:pathData="M91 136v15h60V76c0 -4.664 0.784 -9.115 1.377 -13.621C117.525 68.82 91 99.313 91 136z"
-        android:fillColor="#000000" />
+        android:fillColor="#F5A40F" />
     <path
         android:pathData="M150 346V181H0v15c0 15.701 2.877 30.61 6.995 45H120v30H18.862c25.472 49.321 74.528 84.558 132.585 89.313C150.793 355.589 150 350.902 150 346z"
         android:fillColor="#000000" />
