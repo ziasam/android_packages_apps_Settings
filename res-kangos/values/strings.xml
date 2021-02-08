@@ -276,5 +276,11 @@
     <string name="about_device_rom_title">Kang OS</string>
 
     <string name="sensor_block_settings_title">Sensor Block</string>
+
+    <!-- Navbar radius -->
+    <string name="navbar_radius">Gesture bar Radius</string>
+    <string name="small_label">small</string>
+    <string name="big_label">iOS</string>
+
 </resources>
 
