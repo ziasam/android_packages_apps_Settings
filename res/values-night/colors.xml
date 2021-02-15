@@ -41,5 +41,10 @@
     <!-- KangOS version page colors -->
     <color name="kangos_version_border_color">#242424</color>
     <color name="kangos_version_text_color">#FFFFFF</color>
+
+    <color name="card_view_bg">#1B1B1B</color>
+    <color name="black">#FAFAFA</color>
+    <color name="off_black">#90FAFAFA</color>
+
 </resources>
 

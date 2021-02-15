@@ -502,6 +502,25 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
                         mDashboardFeatureProvider.bindPreferenceToTileAndGetObservers(getActivity(),
                                 forceRoundedIcons, getMetricsCategory(), pref, tile, key,
                                 mPlaceholderPreferenceController.getOrder());
+
+
+                    String str2 = pref.getKey().toString();
+                    if (str2.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity")) {
+                        pref.setLayoutResource(R.layout.card_view_pref_middle);
+                        pref.setOrder(-40);
+
+                    } else if (str2.equals("dashboard_tile_pref_com.google.android.gms.app.settings.GoogleSettingsIALink")) {
+                        pref.setLayoutResource(R.layout.card_view_pref_top);
+                        pref.setOrder(-60);
+
+                    } else if (str2.equals("dashboard_tile_pref_com.kangos.device.DeviceSettings.DeviceSettingsActivity")) {
+                        pref.setLayoutResource(R.layout.card_view_pref_middle);
+			pref.setOrder(-160);
+
+                    } else if (str2.equals("dashboard_tile_pref_com.awaken.settings.AwakenSettings")) {
+                        pref.setLayoutResource(R.layout.card_view_pref_top);
+                    }
+
                 screen.addPreference(pref);
                 registerDynamicDataObservers(observers);
                 mDashboardTilePrefKeys.put(key, observers);
