@@ -29,6 +29,8 @@
     <string name="kangos_version_ram">RAM</string>
     <string name="kangos_version_maintainer">Maintainer</string>
 
+    <string name="kangos_maintainer">Unofficial Maintainer</string>
+
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
