@@ -171,6 +171,7 @@ import com.awaken.settings.fragments.HeadsUpSettings;
 import com.awaken.settings.SmartPixels;
 import com.awaken.settings.GamingMode;
 import com.awaken.settings.RoundedCorners;
+import com.awaken.settings.SensorBlockSettings;
 
 public class SettingsGateway {
 
@@ -330,7 +331,8 @@ public class SettingsGateway {
             HeadsUpSettings.class.getName(),
             SmartPixels.class.getName(),
             GamingMode.class.getName(),
-            RoundedCorners.class.getName()
+            RoundedCorners.class.getName(),
+            SensorBlockSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -379,5 +381,6 @@ public class SettingsGateway {
             Settings.SmartPixelsActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
             Settings.RoundedCornersActivity.class.getName(),
+            Settings.SensorBlockSettingsActivity.class.getName(),
     };
 }

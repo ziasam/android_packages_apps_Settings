@@ -261,4 +261,6 @@ public class Settings extends SettingsActivity {
     public static class GamingModeActivity extends SettingsActivity { /* empty */ }
 
     public static class RoundedCornersActivity extends SettingsActivity { /* empty */ }
+
+    public static class SensorBlockSettingsActivity extends SettingsActivity { /* empty */ }
 }
