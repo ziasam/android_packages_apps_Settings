@@ -275,5 +275,6 @@
     <string name="storage_card_info">Occupied</string>
     <string name="about_device_rom_title">Kang OS</string>
 
+    <string name="sensor_block_settings_title">Sensor Block</string>
 </resources>
 
