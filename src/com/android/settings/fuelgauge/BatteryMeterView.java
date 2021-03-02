@@ -27,8 +27,6 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.ColorFilter;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffColorFilter;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.os.BatteryManager;
@@ -84,7 +82,7 @@ public class BatteryMeterView extends CardView {
         super(context, attrs, defStyleAttr);
 		init(context);
     }
-	
+
 	@SuppressLint("DefaultLocale")
     private void init(Context context) {
         ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
@@ -108,12 +106,13 @@ public class BatteryMeterView extends CardView {
         layout.addView(linearLayout);
         addView(layout);
 //        setRadius(getLayoutParams().height);
-		final int frameColor = context.getColor(R.color.meter_background_color);
-        mErrorColorFilter = new PorterDuffColorFilter(
-                context.getColor(R.color.battery_icon_color_error), PorterDuff.Mode.SRC_IN);
-        mForegroundColorFilter = new PorterDuffColorFilter(
-                Utils.getColorAttrDefaultColor(context, android.R.attr.colorForeground),
-                PorterDuff.Mode.SRC);
+        final int frameColor = context.getColor(R.color.meter_background_color);
+        mAccentColorFilter = Utils.getAlphaInvariantColorFilterForColor(
+                Utils.getColorAttrDefaultColor(context, android.R.attr.colorAccent));
+        mErrorColorFilter = Utils.getAlphaInvariantColorFilterForColor(
+                context.getColor(R.color.battery_icon_color_error));
+        mForegroundColorFilter = Utils.getAlphaInvariantColorFilterForColor(
+                Utils.getColorAttrDefaultColor(context, android.R.attr.colorForeground));
         mDrawable = new BatteryMeterDrawable(context, frameColor);
         mDrawable.setColorFilter(mAccentColorFilter);
     }

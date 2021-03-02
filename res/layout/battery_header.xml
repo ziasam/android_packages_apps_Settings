@@ -25,11 +25,11 @@
     android:orientation="vertical"
     style="@style/BatteryEntityHeader">
 
-		<com.android.settings.fuelgauge.BatteryMeterView
-			android:id="@+id/battery_header_icon"
-			android:layout_width="match_parent"
-			android:layout_height="175dp"
-			android:layout_gravity="bottom"/>
+     <com.android.settings.fuelgauge.BatteryMeterView
+        android:id="@+id/battery_header_icon"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_gravity="bottom"/>
 
         <TextView
         android:id="@+id/battery_percent"
@@ -46,5 +46,4 @@
 	android:textSize="20sp"
         android:visibility="gone"
         android:textColor="?android:attr/textColorPrimary"/>
-
 </LinearLayout>
