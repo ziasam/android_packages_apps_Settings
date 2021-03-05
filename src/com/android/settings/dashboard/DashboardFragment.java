@@ -522,7 +522,7 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
                         pref.setLayoutResource(R.layout.card_view_pref_top);
                         pref.setOrder(-60);
 
-                    } else if (str2.equals("dashboard_tile_pref_com.colt.device.DeviceSettings.DeviceSettingsActivity")) {
+                    } else if (str2.equals("dashboard_tile_pref_com.kangos.device.DeviceSettings.DeviceSettingsActivity")) {
                         pref.setLayoutResource(R.layout.card_view_pref_middle);
 			pref.setOrder(-160);
 
